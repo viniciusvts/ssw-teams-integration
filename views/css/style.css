@@ -1,0 +1,12 @@
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+form input{
+    display: block;
+    margin: 0 0 10px;
+}
+form button[type="submit"]{
+    display: block;
+    margin: 10px 0;
+}
