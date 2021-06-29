@@ -8,14 +8,14 @@ include SSW_TEAMSI_PATH."/views/template/header.php";
 if($SSWTI->hasClientId()){ echo '<p>Client ID ok</p>'; }
 else{
     echo '<p>Insira o Client ID. <a href="';
-    menu_page_url(SSW_TEAMSI_PLUGIN_SLUG.'-config');
+    menu_page_url(SSW_TEAMSI_PLUGIN_SLUG.'-auth');
     echo '">Aqui</a></p>';
 }
 
 if($SSWTI->hasClientSecret()){ echo '<p>Client Secret ok</p>'; }
 else{
     echo '<p>Insira o Client Secret. <a href="';
-    menu_page_url(SSW_TEAMSI_PLUGIN_SLUG.'-config');
+    menu_page_url(SSW_TEAMSI_PLUGIN_SLUG.'-auth');
     echo '">Aqui</a></p>';
 }
 
