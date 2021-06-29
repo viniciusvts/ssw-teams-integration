@@ -176,7 +176,7 @@ if( !class_exists('ssw_tint_wp') ){
          * Adiciona o/os usuário/s especificados para o grupo indicado.
          * Na doc da microsoft esse endpoint retorna vazio
          * @param array||string $userId - identificação do usuário
-         * @param string groupId - identificação do grupo
+         * @param string $groupId - identificação do grupo
          */
         public function moveUserToGroup($userId, $groupId){
             $url = 'https://graph.microsoft.com/v1.0/groups/'.$groupId;
